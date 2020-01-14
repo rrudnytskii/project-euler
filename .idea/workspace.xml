@@ -1,50 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d1571d-0324-4479-9ec7-9df33d218a78" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="f5d1571d-0324-4479-9ec7-9df33d218a78" name="Default Changelist" comment="Tasks 3,4,5 are solved">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LargestPalindromeProduct/App00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SmallestMultiple/App00.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EulerProject/EvenFibonachiNumber/App00.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EulerProject/EvenFibonachiNumber/App00.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EulerProject/MultipleOf3And5/App00.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EulerProject/MultipleOf3And5/App00.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EvenFibonachiNumber/App00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EvenFibonachiNumber/App00.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LargestPrimeFactor/App00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LargestPrimeFactor/App00.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultipleOf3And5/App00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultipleOf3And5/App00.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MultipleOf3And5/App00.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
-              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EvenFibonachiNumber/App00.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5910">
-              <caret line="432" selection-start-line="432" selection-end-line="432" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,71 +24,75 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/EvenFibonachiNumber/App00.java" />
-        <option value="$PROJECT_DIR$/src/MultipleOf3And5/App00.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2060" />
     <option name="width" value="810" />
     <option name="height" value="559" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EulerProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Euler Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EulerProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Euler Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1WL2HKd7iomwL9hL2pDwwxCnPpq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578855264048" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../impltech/olx-bot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.App00">
+  <component name="RunManager" selected="Application.App00 (4)">
     <configuration name="App00 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EvenFibonachiNumber.App00" />
       <module name="EulerProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="EvenFibonachiNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App00 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestPrimeFactor.App00" />
+      <module name="EulerProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LargestPrimeFactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App00 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestPalindromeProduct.App00" />
+      <module name="EulerProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LargestPalindromeProduct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App00 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SmallestMultiple.App00" />
+      <module name="EulerProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SmallestMultiple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,10 +115,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App00 (4)" />
+        <item itemvalue="Application.App00 (3)" />
+        <item itemvalue="Application.App00 (2)" />
         <item itemvalue="Application.App00" />
         <item itemvalue="Application.App00 (1)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -163,91 +153,70 @@
       <workItem from="1564476410533" duration="81000" />
       <workItem from="1578853596969" duration="1579000" />
       <workItem from="1578903430502" duration="154000" />
+      <workItem from="1578914470470" duration="2008000" />
+      <workItem from="1579003452949" duration="8924000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14085000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="1920" height="1080" extended-state="6" />
-    <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19764957" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3294702" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39900663" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3294702" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Statistic" order="13" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/MultipleOf3And5/App00.java</url>
-          <line>23</line>
-          <properties class="MultipleOf3And5.App00" method="foldArray">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tasks 3,4,5 are solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks 3,4,5 are solved" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MultipleOf3And5/App00.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EvenFibonachiNumber/App00.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5910">
-          <caret line="432" selection-start-line="432" selection-end-line="432" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="825" y="445" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578915553994">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="825" y="445" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1578915553994" />
+    <state x="325" y="201" width="824" height="684" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1578915540488">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="325" y="201" width="824" height="684" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/49.27.1871.1053@49.27.1871.1053" timestamp="1578915540488" />
+    <state x="549" y="149" width="860" height="807" key="CommitChangelistDialog2" timestamp="1579016688597">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="549" y="149" width="860" height="807" key="CommitChangelistDialog2/49.27.1871.1053@49.27.1871.1053" timestamp="1579016688597" />
+    <state x="757" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578919389969">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="757" y="311" width="424" height="484" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1578919389969" />
+    <state width="1825" height="278" key="GridCell.Tab.0.bottom" timestamp="1579016688673">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1825" height="278" key="GridCell.Tab.0.bottom/49.27.1871.1053@49.27.1871.1053" timestamp="1579016688673" />
+    <state width="1825" height="278" key="GridCell.Tab.0.center" timestamp="1579016688673">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1825" height="278" key="GridCell.Tab.0.center/49.27.1871.1053@49.27.1871.1053" timestamp="1579016688673" />
+    <state width="1825" height="278" key="GridCell.Tab.0.left" timestamp="1579016688673">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1825" height="278" key="GridCell.Tab.0.left/49.27.1871.1053@49.27.1871.1053" timestamp="1579016688673" />
+    <state width="1825" height="278" key="GridCell.Tab.0.right" timestamp="1579016688673">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1825" height="278" key="GridCell.Tab.0.right/49.27.1871.1053@49.27.1871.1053" timestamp="1579016688673" />
+    <state width="1825" height="343" key="GridCell.Tab.1.bottom" timestamp="1579015968908">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1825" height="343" key="GridCell.Tab.1.bottom/49.27.1871.1053@49.27.1871.1053" timestamp="1579015968908" />
+    <state width="1825" height="343" key="GridCell.Tab.1.center" timestamp="1579015968908">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1825" height="343" key="GridCell.Tab.1.center/49.27.1871.1053@49.27.1871.1053" timestamp="1579015968908" />
+    <state width="1825" height="343" key="GridCell.Tab.1.left" timestamp="1579015968908">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1825" height="343" key="GridCell.Tab.1.left/49.27.1871.1053@49.27.1871.1053" timestamp="1579015968908" />
+    <state width="1825" height="343" key="GridCell.Tab.1.right" timestamp="1579015968908">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1825" height="343" key="GridCell.Tab.1.right/49.27.1871.1053@49.27.1871.1053" timestamp="1579015968908" />
+    <state x="640" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578914472336">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="640" y="380" key="com.intellij.ide.util.TipDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1578914472336" />
   </component>
 </project>
