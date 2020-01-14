@@ -39,6 +39,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.App00 (4)">
     <configuration name="App00 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EvenFibonachiNumber.App00" />
@@ -214,6 +219,10 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state width="1825" height="343" key="GridCell.Tab.1.right/49.27.1871.1053@49.27.1871.1053" timestamp="1579015968908" />
+    <state x="734" y="265" width="491" height="574" key="RollbackChangesDialog" timestamp="1579017521109">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="734" y="265" width="491" height="574" key="RollbackChangesDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1579017521109" />
     <state x="579" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579016723795">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
