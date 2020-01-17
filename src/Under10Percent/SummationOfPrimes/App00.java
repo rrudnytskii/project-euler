@@ -1,34 +1,37 @@
-package The10001stPrime;
+package Under10Percent.SummationOfPrimes;
 
 import java.util.ArrayList;
 import java.util.List;
 
-//  Выписав первые шесть простых чисел, получим 2, 3, 5, 7, 11 и 13. Очевидно, что 6-ое простое число - 13.
-//  Какое число является 10001-ым простым числом?
+//    Сумма простых чисел меньше 10 равна 2 + 3 + 5 + 7 = 17.
+//
+//    Найдите сумму всех простых чисел меньше двух миллионов.
 public class App00 {
     public static void main(String[] args) {
-        int maxPrimeNumberPosition = 10001;
+        int maxPrimeIndex = 2000000;
+        int resultSum = 1;
         long currentNumber = 1;
         List<Long> primeNumbersList = new ArrayList<>();
         long start = System.currentTimeMillis();
-        while(primeNumbersList.size() < maxPrimeNumberPosition){
+        while (primeNumbersList.size() < maxPrimeIndex) {
             currentNumber++;
-            if(currentNumber >> 1 != 0) {
+            if (currentNumber >> 1 != 0) {
                 if (primeNumbersList.size() != 0) {
                     if (!isNotPrimeNumber(currentNumber, primeNumbersList)) {
+                        resultSum += currentNumber;
                         primeNumbersList.add(currentNumber);
                     }
                 } else {
+                    resultSum += currentNumber;
                     primeNumbersList.add(currentNumber);
                 }
             }
         }
-        long end = System.currentTimeMillis();
-        System.out.println("What is the 10 001st prime number? - "+currentNumber+" at time "+(end - start)/1000+"s");
+        System.out.println("the sum of all the primes below two million - "+resultSum);
     }
-
     private static boolean isNotPrimeNumber(long number,List<Long> primeNumberList){
+        long sqrt = (long)Math.sqrt(number);
         return primeNumberList.stream()
-                .anyMatch(divisor -> number % divisor == 0);
+                .anyMatch(divisor -> (number % divisor == 0) && (sqrt >= divisor) );
     }
 }

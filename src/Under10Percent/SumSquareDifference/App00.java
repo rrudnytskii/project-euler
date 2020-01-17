@@ -1,4 +1,4 @@
-package SumSquareDifference;
+package Under10Percent.SumSquareDifference;
 
 //        Сумма квадратов первых десяти натуральных чисел равна
 //

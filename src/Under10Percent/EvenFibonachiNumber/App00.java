@@ -1,4 +1,4 @@
-package EvenFibonachiNumber;
+package Under10Percent.EvenFibonachiNumber;
 
 import java.util.ArrayList;
 import java.util.List;
