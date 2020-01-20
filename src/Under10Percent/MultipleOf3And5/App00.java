@@ -1,4 +1,4 @@
-package MultipleOf3And5;
+package Under10Percent.MultipleOf3And5;
 
 import java.util.Arrays;
 
