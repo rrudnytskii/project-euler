@@ -8,30 +8,35 @@ import java.util.List;
 //    Найдите сумму всех простых чисел меньше двух миллионов.
 public class App00 {
     public static void main(String[] args) {
-        int maxPrimeIndex = 2000000;
-        int resultSum = 1;
+        int arraylength = 200000;
         long currentNumber = 1;
-        List<Long> primeNumbersList = new ArrayList<>();
+        long[] primeNumbersArray = new long[arraylength];
+        int index = 0;
+        long resultSum = 2;
+        primeNumbersArray[index] = 2;
         long start = System.currentTimeMillis();
-        while (primeNumbersList.size() < maxPrimeIndex) {
-            currentNumber++;
-            if (currentNumber >> 1 != 0) {
-                if (primeNumbersList.size() != 0) {
-                    if (!isNotPrimeNumber(currentNumber, primeNumbersList)) {
-                        resultSum += currentNumber;
-                        primeNumbersList.add(currentNumber);
-                    }
-                } else {
+        boolean isWorking = true;
+        while (isWorking) {
+            currentNumber += 2;
+            if(currentNumber < 2000000) {
+                if (isPrimeNumber(currentNumber, primeNumbersArray)) {
+                    index++;
+                    primeNumbersArray[index] = currentNumber;
                     resultSum += currentNumber;
-                    primeNumbersList.add(currentNumber);
                 }
+            }else{
+                isWorking = false;
             }
         }
-        System.out.println("the sum of all the primes below two million - "+resultSum);
+        long end = System.currentTimeMillis();
+        System.out.println("the sum of all the primes below two million - "+resultSum+" at time " + (end - start) / 1000 + "s");
     }
-    private static boolean isNotPrimeNumber(long number,List<Long> primeNumberList){
-        long sqrt = (long)Math.sqrt(number);
-        return primeNumberList.stream()
-                .anyMatch(divisor -> (number % divisor == 0) && (sqrt >= divisor) );
+    private static boolean isPrimeNumber(long number, long[] primeNumbersArray) {
+        for (int i = 0; i < primeNumbersArray.length; i++) {
+            if (primeNumbersArray[i] != 0 && Math.sqrt(number)+1 >= primeNumbersArray[i] && number % primeNumbersArray[i] == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }

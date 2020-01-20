@@ -7,28 +7,29 @@ import java.util.List;
 //  Какое число является 10001-ым простым числом?
 public class App00 {
     public static void main(String[] args) {
-        int maxPrimeNumberPosition = 10001;
+        int maxPrimeNumberPosition = 1000000;
         long currentNumber = 1;
-        List<Long> primeNumbersList = new ArrayList<>();
+        long[] primeNumbersArray = new long[maxPrimeNumberPosition];
+        int index = 0;
+        primeNumbersArray[index] = 2;
         long start = System.currentTimeMillis();
-        while(primeNumbersList.size() < maxPrimeNumberPosition){
-            currentNumber++;
-            if(currentNumber >> 1 != 0) {
-                if (primeNumbersList.size() != 0) {
-                    if (!isNotPrimeNumber(currentNumber, primeNumbersList)) {
-                        primeNumbersList.add(currentNumber);
-                    }
-                } else {
-                    primeNumbersList.add(currentNumber);
-                }
+        while (index < maxPrimeNumberPosition-1) {
+            currentNumber +=  2;
+            if (isPrimeNumber(currentNumber, primeNumbersArray)) {
+                index++;
+                primeNumbersArray[index] = currentNumber;
             }
         }
         long end = System.currentTimeMillis();
-        System.out.println("What is the 10 001st prime number? - "+currentNumber+" at time "+(end - start)/1000+"s");
+        System.out.println("What is the 10 001st prime number? - " + currentNumber + " at time " + (end - start) / 1000 + "s");
     }
 
-    private static boolean isNotPrimeNumber(long number,List<Long> primeNumberList){
-        return primeNumberList.stream()
-                .anyMatch(divisor -> number % divisor == 0);
+    private static boolean isPrimeNumber(long number, long[] primeNumbersArray) {
+        for (int i = 0; i < primeNumbersArray.length; i++) {
+            if (primeNumbersArray[i] != 0 && Math.sqrt(number)+1 >= primeNumbersArray[i] && number % primeNumbersArray[i] == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
